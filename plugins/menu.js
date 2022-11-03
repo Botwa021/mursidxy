@@ -246,14 +246,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
     	      	let ori = `Hay kak, @${m.sender.split`@`[0]}
  
-мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server rdp yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`
-return conn.send2ButtonImg(m.chat, 'https://telegra.ph/file/4faaadef5a6d23d44ae06.jpg', ori, `мυʀѕι∂ вσт-χмℓ`, 'ѕємυα ρєʀιɴтαн', '.? all', 'ᴅσɴαѕι', '.donasi',  m, { contextInfo: {  
+мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`
+return conn.send2ButtonImg(m.chat, 'https://telegra.ph/file/36168d92fddef7d37f445.jpg', ori, `мυʀѕι∂ вσт-χмℓ`, 'ѕємυα ρєʀιɴтαн', '.? all', 'ᴅσɴαѕι', '.donasi',  m, { contextInfo: {  
               externalAdReply: {  
                 mediaType: 2,
                 mediaUrl: 'https://instagram.com/mursid.st',  
                 title: 'ѕιмρℓє мυʀѕι∂ вσт-χмℓ',  
                 body: 'ʙʏ ᴍᴜʀsɪᴅ xᴍʟ',  
-                thumbnail: await (await fetch('https://telegra.ph/file/5c40f86212ab773ac1b15.jpg')).buffer()
+                thumbnail: await (await fetch('https://telegra.ph/file/7bec33494d4de1afc4b26.jpg')).buffer()
               }  
           }}) 
     
