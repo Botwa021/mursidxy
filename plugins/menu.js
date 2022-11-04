@@ -51,6 +51,7 @@ const defaultMenu = {
 │• Rasell Comel
  | • Krizynofc
 │• Kurukuumd
+│• Icha Cans
 │• Mursid S
 │• All Creator Bot
 └─────────────⬣
