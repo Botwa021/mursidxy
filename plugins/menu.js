@@ -8,7 +8,6 @@ const defaultMenu = {
 ┌───────────────────⬣
 │           мυʀѕι∂ вσт-χмℓ
 └┬────────────────✽
-   │        「 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧 」
 ┌┤⬡ *Tersisa* : %limit Limit
 ││⬡ *Role* : %role
 ││⬡ *Level* : %level 
@@ -28,7 +27,7 @@ const defaultMenu = {
 │⬡ *Asal Kota* : Yogyakarta
 │⬡ *Umur* : 18 Tahun
 │⬡ *Ulang Tahun* : 25 Juli 2004
-│⬡ *Hobi* : Coding, suka kamu, gamers
+│⬡ *Hobi* : Coding, gamers
 └───────────────────⬣
 %readmore`.trim(),
   header: '┌──「 %category 」──⬣',
@@ -248,7 +247,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     	      	let ori = `Hay kak, @${m.sender.split`@`[0]}
  
 мυʀѕι∂ вσт-χмℓ adalah bot whatsapp yang di bangun dengan Nodejs, dengan menggunakan server yang sangat kencang, tapi tidak terlalu kencang-kencang banget.`
-return conn.send2ButtonImg(m.chat, 'https://telegra.ph/file/36168d92fddef7d37f445.jpg', ori, `мυʀѕι∂ вσт-χмℓ`, 'ѕємυα ρєʀιɴтαн', '.? all', 'ᴅσɴαѕι', '.donasi',  m, { contextInfo: {  
+return conn.send2ButtonImg(m.chat, 'https://telegra.ph/file/086942af6f670058dfa60.jpg', ori, `мυʀѕι∂ вσт-χмℓ`, 'ѕємυα ρєʀιɴтαн', '.? all', 'ᴅσɴαѕι', '.donasi',  m, { contextInfo: {  
               externalAdReply: {  
                 mediaType: 2,
                 mediaUrl: 'https://instagram.com/mursid.st',  
